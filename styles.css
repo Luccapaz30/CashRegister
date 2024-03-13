@@ -1,0 +1,80 @@
+*{
+    background-color: rgb(92, 92, 92);
+    color:aliceblue;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+h1, h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1px;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: black;
+}
+#input-div{
+    width: 300px;
+    height: 130px;
+    margin:10px;
+    border: 4px double black;
+    padding: 10%;
+    border-radius: 15px;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+}
+button{
+    background-color: rgb(72, 72, 72);
+    padding : 4px;
+    border-radius: 10px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    margin: 10px;
+}
+#change-due{
+    width: 300px;
+    margin:10px;
+    border: 4px double black;
+    padding: 10%;
+    border-radius: 15px;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+}
+#cash-in-drawler{
+    width: 300px;
+    margin:10px;
+    border: 4px double black;
+    padding: 10%;
+    border-radius: 15px;
+    justify-content: left;
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    box-sizing: border-box;
+}
+p{
+    font-size: small;
+    margin: auto;
+}
